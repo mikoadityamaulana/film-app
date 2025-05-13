@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .film-list, .film-detail {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .search-bar {
+    margin: 20px 0;
+  }
+  
+  .films-container, .related-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .film-card, .related-card {
+    cursor: pointer;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  button {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .image-container {
+    min-height: 300px;
+  }
